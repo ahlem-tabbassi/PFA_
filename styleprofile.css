@@ -239,3 +239,6 @@ head {
     z-index: 10001;
     display: none;
 }
+.portfolio-wrap img {
+  border: 2px solid #000000;
+}

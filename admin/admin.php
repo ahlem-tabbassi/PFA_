@@ -72,9 +72,7 @@ if (isset($_POST['login'])) {
             Welcome As Admin
           </span>
           <span class="login100-form-title p-b-48">
-            <img src="isikef.png" alt="" style=" max-width: 150px;
-                height: auto;
-                ">
+            
           </span>
 
           <div class="wrap-input100 validate-input" data-validate="Valid email is:
@@ -92,13 +90,13 @@ if (isset($_POST['login'])) {
           </div>
 
           <div class="container-login100-form-btn">
-            <div class="wrap-login100-form-btn">
-              <div class="login100-form-bgbtn"></div>
-              <button class="login100-form-btn" type="submit">
-                Login
-              </button>
-            </div>
-          </div>
+  <div class="wrap-login100-form-btn">
+    <div class="login100-form-bgbtn"></div>
+    <button class="btn btn-warning login100-form-btn" type="submit">
+      Login
+    </button>
+  </div>
+</div>
         </form>
       </div>
     </div>

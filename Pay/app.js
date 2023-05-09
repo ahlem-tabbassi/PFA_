@@ -1,16 +1,15 @@
 // app.js
-document.getElementById('payment-form').addEventListener('submit', function(event) {
+document.getElementById('pay').addEventListener('submit', function(event) {
     event.preventDefault();
     // Récupérer les données du formulaire
-    var cardNumber = document.getElementById('card-number').value;
-    var expiryDate = document.getElementById('expiry-date').value;
+    var numCarte = document.getElementById('numCarte').value;
+    var date_expiration = document.getElementById('date_expiration').value;
     var cvv = document.getElementById('cvv').value;
-    var cardholderName = document.getElementById('cardholder-name').value;
-    
-    // Valider les données et effectuer le paiement
-    // (code de validation et de traitement du paiement ici)
+    var nom_titulaire = document.getElementById('nom_titulaire').value;
+    var Name = document.getElementById('Name').value;
+   
     
     // Réinitialiser le formulaire après le paiement
-    document.getElementById('payment-form').reset();
+    document.getElementById('pay').reset();
   });
   
