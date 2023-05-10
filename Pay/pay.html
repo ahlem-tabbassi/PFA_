@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Paiement de ticket de métro</title>
+    <title>Reservation</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="assets/img/icon.png" rel="icon">
   </head>
   <body>
     <header>
-      <a href="payement.php" class="menu">TransPor!y</a>
+      <a href="pay.html" class="menu">TransPor!y</a>
+      
     </header>
+    
     <div class="container">
-      <h1 class="title">Paiement de ticket de metro</h1>
+      <h1 class="title">Reservation</h1>
       <form id="payment-form" class="ff">
         <label for="Name">Name</label>
         <input
@@ -20,15 +23,15 @@
           placeholder="Name"
         />
 
-        <label for="card-number">Numero de carte de credit</label>
+        <label for="card-number">Credit card number</label>
         <input
           class="text"
           type="text"
           id="card-number"
           name="card-number"
-          placeholder="Numéro de carte de crédit"
+          placeholder="Credit card number"
         />
-        <label for="expiry-date">Date d'expiration</label>
+        <label for="expiry-date">Expiry-date</label>
         <input
           class="text"
           type="text"
@@ -38,15 +41,15 @@
         />
         <label for="cvv">CVV</label>
         <input class="text" type="text" id="cvv" name="cvv" placeholder="CVV" />
-        <label for="cardholder-name">Nom du titulaire de la carte</label>
+        <label for="cardholder-name">Cardholder-Name</label>
         <input
           class="text"
           type="text"
           id="cardholder-name"
           name="cardholder-name"
-          placeholder="Nom du titulaire de la carte"
+          placeholder="Cardholder-Name"
         />
-        <input type="submit" value="Payer" class="btn-submit" />
+        <input type="submit" value="Payment" class="btn-submit" />
       </form>
     </div>
     <!-- <section class="image">

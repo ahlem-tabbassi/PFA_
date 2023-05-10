@@ -32,6 +32,7 @@ header nav{
    .menu{
         font-size: 30px;
         text-transform:capitalize;
+        font-weight: bold;
         }
         #hero {
           width: 100%;
@@ -49,7 +50,7 @@ body{
     background-repeat: no-repeat;
     /* background-size:100% 100%; */
     /* background-attachment: fixed; */
-    background:#51400d ;
+    background: linear-gradient(to bottom, #996633 22%, #ffcc00 100%);
     position: relative;
     /* height: 100vh;
     width: 100%; */
@@ -85,7 +86,7 @@ align-items: center;
   }
   .text{
     border:none;
-    border-bottom:1px solid rgb(208, 169, 29);
+    border-bottom:1px solid #f7aa10;
     background:transparent ;
     outline:none;
     height:20px;
@@ -114,7 +115,7 @@ align-items: center;
     margin-top: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #f7aa10;
+    background-color: #161615;
     color: #fff;
     text-align: center;
     cursor: pointer;
